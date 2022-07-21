@@ -19,15 +19,6 @@ html {
 body {
     margin-bottom: 60px;
 }
-
-.advert-div {
-    background-color: aquamarine;
-    padding-top: -20px;
-    margin-top: -16px;
-    margin-bottom: 10px;
-    width: 100vh;
-    margin-left: -115px;
-}
 .search-div { 
     height: 30px;
 }
@@ -37,21 +28,24 @@ input{
 .rn {
     border: 2px solid yellow;
     background-color: darkblue;
-    padding: 20px;
-    height: 90px;
-    width: 90px;
-    margin: 20px;
+    padding: 10px;
+    height: 70px;
+    width: 169px;
+    margin: 5px;
     float: left;
-    border-radius: 100px;
+    /border-radius: 50px;
     transition-duration: 0.1s;
     transition-timing-function: linear;
     transition-delay: 0.1s;
+    color: white;
+    /margin-bottom: 30px;
 }
     .rn:hover {
-        border: 2px solid blue;
+        border: 2px solid darkblue;
         box-shadow: 3px 4px 5px;
         background-color: yellow;
         transition: 0.1s;
+        color: darkblue;
     }
 .tax-tips{
     margin-bottom: 30px;
@@ -81,10 +75,11 @@ input{
 .nav {
     margin-top: 20px;
     margin-bottom: 20px;
+    
 }
 .nav-full {
     text-align: center;
-    margin-left: 50px;
+    margin-left: 5px;
     float: left;
 }
 .con{
@@ -197,6 +192,11 @@ input{
 }
 .social-con{
     padding: 20px;
+}
+.social-con-1{
+    background-color: yellow;
+    text-align: center;
+    color: black;
 }
 .social-img {
     width: 100%;
