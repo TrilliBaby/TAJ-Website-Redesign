@@ -1,0 +1,281 @@
+html {
+  font-size: 14px;
+
+
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+.search-div { 
+    height: 30px;
+}
+input{
+    float: right;
+}
+.rn {
+    border: 2px solid yellow;
+    background-color: darkblue;
+    padding: 10px;
+    height: 70px;
+    width: 169px;
+    margin: 5px;
+    float: left;
+    /border-radius: 50px;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
+    color: white;
+    /margin-bottom: 30px;
+}
+    .rn:hover {
+        border: 2px solid darkblue;
+        box-shadow: 3px 4px 5px;
+        background-color: yellow;
+        transition: 0.1s;
+        color: darkblue;
+    }
+.tax-tips{
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.cc {
+    background-color: yellow;
+    font-size: 40px;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.ci {
+    
+
+}
+.circle {
+    border: 1px solid darkblue;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 200px;
+    text-align:center;
+}
+
+.nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.nav-full {
+    text-align: center;
+    margin-left: 5px;
+    float: left;
+}
+.con{
+    background-color: darkblue;
+    border-radius: 10px;
+    color: white;
+}
+.nav-con1 {
+    background-color: aquamarine;
+}
+
+.nav-con2 {
+    background-color: red;
+    min-height: 100px;
+    overflow: hidden;
+}
+
+.nav-con3 {
+    background-color: yellow;
+    
+    min-height: 100px;
+    overflow: hidden;
+}
+
+.nav-con4 {
+    background-color: blueviolet;
+    min-height: 100px;
+    overflow: hidden;
+}
+
+.nav-con {
+    background-color: darkblue;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    border-radius: 20px;
+}
+.News-Releases {
+    margin: 0px;
+    padding: 0px;
+}
+.news-div {
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 300px;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
+}
+    .news-div:hover {
+        background-color: darkblue;
+        color: white;
+        transition: 0.1s;
+    }
+
+.table {
+    background-color: blueviolet;
+}
+.info-div{
+    float: left;
+    background-color: pink;
+}
+.q{
+    background-color: aqua;
+}
+.btn {
+   /* position: relative;
+    top: -100%;
+    right: 0%;*/
+}
+.s {
+    background-color: yellow;
+    padding: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.charity{
+    position: relative;
+    background-color: white;
+    padding-bottom: 40px;
+    padding:0px;
+}
+.charity-img {
+    width: 100%;
+    object-fit: contain;
+}
+.charity-words {
+    padding-top: 10%;
+}
+.overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    height: 100%;
+    transition: .5s ease;
+    opacity: 10;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    object-fit: contain;
+}
+.social-div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.social-con{
+    padding: 20px;
+}
+.social-con-1{
+    background-color: yellow;
+    text-align: center;
+    color: black;
+}
+.social-img {
+    width: 100%;
+    object-fit: contain;
+}
+.opt{
+   list-style: none;
+   padding-left: 15px;
+   color: black;
+}
+    .opt:hover {
+        background-color: lightblue;
+        border-radius: 5px;
+        
+    }
+
+
+
+.heading{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+/*
+-------------------------------
+          About Page
+-------------------------------
+*/
+
+.ccc {
+    background-color: darkblue;
+    margin: 10px;
+    text-align: center;
+    padding-top: 40px;
+    transition-duration: 0.1s;
+    /transition-timing-function: linear;
+    transition-delay: 0.1s;
+    width: 290px;
+    height: 100px;
+    color: white;
+    border-radius: 10px;
+}
+.ccc:hover{
+    background-color: yellow;
+    transition-delay: 0.1s;
+    color: black;
+}
+
+/*
+-------------------------------
+       Media Room Page
+-------------------------------
+*/
+
+.hold {
+    position: relative;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    /width: 910px;
+
+}
+
+.hold-img{
+    /height: 340px;
+    width: 910px;
+
+}
+.overlay1 {
+    width: 98.9%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    height: 100%;
+    transition: .5s ease;
+    opacity: 10;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    object-fit: contain;
+}
